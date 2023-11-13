@@ -78,11 +78,15 @@ yarn ios
 
 Para acessar o arquivo de configurações acesse `src/config/stitchers.ts`.
 
-## Informações
+## Informações da Aplicação
+
+---
 
 ### Oque é essa aplicação:
 
 A aplicação consiste em um dashboard que lista diferentes animais para adoção exibindo uma imagem e informações sobre o pet a ser adotado.
+
+---
 
 ### APIs
 
@@ -130,6 +134,8 @@ export const apiUrl = [
 ]
 ```
 
+---
+
 ### Features
 
 #### Sistema de Login:
@@ -143,5 +149,11 @@ Por padrão o arquivo `.json` contém os seguintes email _fulano@gmail.com_, _si
 Foi utilizado as libs `react-redux`, `@reduxjs/toolkit`, `redux-persist` e `@react-native-async-storage/async-storage`. Porém não consegui deixar funcional, não apresenta nenhum erro no console referente ao `redux-persist` e o login não persiste na memória. [Documentação utilizada]('https://medium.com/@sisongqolosi/redux-persist-with-react-native-using-redux-toolkit-2908cbb9c870').
 
 > **Note:** Mantive o código referente ao `redux-persist` porém o memso **não está funcionando**.
+
+---
+
+### APK
+
+Entre em `android\app\build\outputs\apk\debug`, você ira ver o arquivo `app-debug.apk`
 
 ---
